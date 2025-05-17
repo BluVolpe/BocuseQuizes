@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bocuse</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  
+  <header>
+    <h1></h1>
+  </header>
+
+  <div id="menu-container">
+    <h2></h2>
+    <button class="menu-button" onclick="startQuiz('FoodMenu')">
+      Food Menu
+    </button>
+    
+    <button class="menu-button" onclick="startQuiz('Wines')">
+      Wines
+    </button>
+
+  </div>
+
+  <img class="corner-logo" src="Images/47460bocuse_logo.png" alt="Logo">
+
+  <div id="quiz-container" style="display: none">
+    <div id="question-tracker">
+      <div id="question-counter">0/10</div>
+      <div id="question-tally"></div>
+    </div>
+    <div id="question-container">
+      <div id="question"></div>
+      <div id="choices"></div>
+    </div>
+  </div>
+
+  <div id="score-container" style="display: none">
+    <div id="score-section">
+      <h2>Your Score:</h2>
+      <div id="score" class="big-score"></div>
+    </div>
+    <div id="explanations"></div>
+    <!-- Container for explanations -->
+  </div>
+
+  <footer>
+    <div class="footer-buttons">
+      <button id="menu-button" class="modern-button">Main Menu</button>
+      <button id="restart-button" class="modern-button" style="display: none">
+        Retake Quiz
+      </button>
+    </div>
+  </footer>
+
+  <script src="questions.js"></script>
+  <script src="script.js"></script>
+
+  
+</body>
+
+</html>

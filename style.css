@@ -1,0 +1,354 @@
+/* Overall body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fbfaf5;
+  color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.corner-logo {
+  position: fixed;
+  left: 2vw;
+  bottom: 2vh;
+  width: 10vw;          /* Responsive scaling */
+  height: auto;
+  z-index: 10;            /* Keeps it underneath content */
+  opacity: 0.85;         /* Optional: slightly faded for subtlety */
+  pointer-events: none;  /* Clicks pass through */
+}
+
+
+/* Header styling */
+header {
+  position: fixed;
+  top: 0;
+  width: 0%;
+  background-color: #444;
+  color: #fff;
+  text-align: center;
+  padding: 3px 0;
+  /* Reduce vertical padding */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  font-size: 8px;
+  /* Adjust font size */
+}
+
+/* Menu container styling */
+#menu-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  /* Adjust for header */
+  width: 100%;
+  /* Ensure full width */
+  max-width: 600px;
+  /* Limit max width for larger screens */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-button {
+  background-color: #444;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  margin: 8px 0;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  max-width: 600px;
+  box-sizing: border-box;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+  /* Add border-radius for modern look */
+}
+
+.menu-button:hover {
+  background-color: #555;
+}
+
+/* Footer styling */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #fbfaf5;
+  text-align: center;
+  padding: 10px 0;
+  box-shadow: 0
+  display: flex;
+  justify-content: center;
+}
+
+.footer-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  /* Space between buttons */
+}
+
+.footer-btn {
+  margin: 0;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Quiz container styling */
+#quiz-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin-top: 50px;
+  /* Adjust margin for smaller header */
+  margin-bottom: 50px;
+  width: 100%;
+  max-width: 600px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Question container styling */
+#question-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Question text styling */
+#question {
+  color: #000;
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Image styling within question */
+#question img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+/* Choices container styling */
+#choices {
+  width: 100%;
+  margin-top: 10px;
+}
+
+/* Individual choice button styling */
+#choices button {
+  background-color: #444;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  margin: 8px 0;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 5px;
+  /* Add border-radius for modern look */
+  transition: background-color 0.3s ease;
+}
+
+#choices button:hover {
+  background-color: #555;
+}
+
+/* Correct answer button styling */
+#choices button.correct {
+  background-color: #28a745;
+}
+
+/* Wrong answer button styling */
+#choices button.wrong {
+  background-color: #dc3545;
+}
+
+/* Score container styling */
+#score-container {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 0px;
+  width: 100%;
+  max-width: 600px;
+  box-sizing: border-box;
+  padding-bottom: 70px;
+  /* Ensure space for buttons */
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Score section styling */
+#score-section {
+  margin-bottom: 10px;
+  /* Ensure separation from explanations */
+}
+
+/* Explanation container styling */
+#explanations {
+  max-height: calc(100vh - 200px);
+  /* Adjust based on header and footer height */
+  overflow-y: auto;
+  margin-top: 20px;
+}
+
+/* Question tracker styling */
+#question-tracker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Question counter styling */
+#question-counter {
+  color: #000;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+/* Question tally container styling */
+#question-tally {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 3px;
+}
+
+/* Individual tally item styling */
+#question-tally span {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  background-color: #444;
+}
+
+/* Correct tally item styling */
+#question-tally span.correct {
+  background-color: #28a745;
+}
+
+/* Wrong tally item styling */
+#question-tally span.wrong {
+  background-color: #dc3545;
+}
+
+/* Timer styling */
+#timer {
+  font-size: 5px;
+  font-weight: bold;
+}
+
+/* Modern button styling */
+.modern-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.modern-button:hover {
+  background-color: #0056b3;
+}
+
+/* Big score text styling */
+.big-score {
+  font-size: 36px;
+  margin-top: 20px;
+}
+
+/* Explanation container styling */
+.explanation {
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.explanation p {
+  margin: 5px 0;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  #quiz-container {
+    margin-top: 30px;
+    /* Adjust margin for smaller header */
+    margin-bottom: 50px;
+    padding: 10px;
+  }
+
+  #question {
+    font-size: 20px;
+  }
+
+  #choices button {
+    font-size: 14px;
+    padding: 6px;
+    margin: 10px 0;
+  }
+
+  #timer {
+    font-size: 10px;
+  }
+
+  header,
+  footer {
+    padding: 3px 0;
+    /* Reduce padding for header */
+  }
+
+  #question-tally span {
+    width: 8px;
+    height: 8px;
+  }
+
+  .modern-button {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+
+  .big-score {
+    font-size: 30px;
+  }
+}
