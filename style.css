@@ -17,11 +17,15 @@ body {
   position: fixed;
   left: 2vw;
   bottom: 2vh;
-  width: 10vw;          /* Responsive scaling */
+  width: 20vw;
+  /* Responsive scaling */
   height: auto;
-  z-index: 10;            /* Keeps it underneath content */
-  opacity: 0.85;         /* Optional: slightly faded for subtlety */
-  pointer-events: none;  /* Clicks pass through */
+  z-index: 10;
+  /* Keeps it underneath content */
+  opacity: 0.85;
+  /* Optional: slightly faded for subtlety */
+  pointer-events: none;
+  /* Clicks pass through */
 }
 
 
@@ -56,9 +60,19 @@ header {
 }
 
 h2 {
+  color: #444;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+h3 {
+  color: #444;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  margin-top: 5px;
 }
 
 .menu-button {
@@ -89,9 +103,7 @@ footer {
   background-color: #fbfaf5;
   text-align: center;
   padding: 10px 0;
-  box-shadow: 0
-  display: flex;
-  justify-content: center;
+  
 }
 
 .footer-buttons {
@@ -287,6 +299,7 @@ footer {
 
 /* Big score text styling */
 .big-score {
+  color: #444;
   font-size: 36px;
   margin-top: 20px;
 }
