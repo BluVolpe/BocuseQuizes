@@ -223,11 +223,458 @@ const questions = {
   ],
 
 
+
+
   
 
   BocuseWines: [
 
+    {
+      question: "From which region is the Pierre Sparr Crémant d'Alsace Pinot Blanc/Auxerrois?",
+      choice: [
+        "Alsace",
+        "Burgundy",
+        "Bordeaux",
+        "Provence"
+      ],
+      answer: "Alsace",
+      explanation: "Pierre Sparr Crémant d'Alsace Pinot Blanc/Auxerrois is a sparkling wine from Alsace, France."
+    },
+    {
+      question: "From which region does the Chateau Chesnaie-Moriniere Muscadet come?",
+      choice: [
+        "Lower Loire (Pays Nantais)",
+        "Burgundy",
+        "Rhône",
+        "Bordeaux"
+      ],
+      answer: "Lower Loire (Pays Nantais)",
+      explanation: "Chateau Chesnaie-Moriniere Muscadet is produced in Pays Nantais, in the Lower Loire Valley of France."
+    },
+    {
+      question: "Which region is home to the Hugel Classic Pinot Gris?",
+      choice: [
+        "Alsace",
+        "Provence",
+        "Bordeaux",
+        "Beaujolais"
+      ],
+      answer: "Alsace",
+      explanation: "Hugel Classic Pinot Gris is a white wine from Alsace, France."
+    },
+    {
+      question: "The Louis Jadot Mâcon-Villages Chardonnay comes from which French wine region?",
+      choice: [
+        "Burgundy (Côte de Beaune)",
+        "Alsace",
+        "Rhône",
+        "Loire"
+      ],
+      answer: "Burgundy (Côte de Beaune)",
+      explanation: "Louis Jadot Mâcon-Villages Chardonnay is from the Côte de Beaune, Burgundy, France."
+    },
+    {
+      question: "Bandol Domaine Le Galantin Rosé is produced in which region?",
+      choice: [
+        "Provence",
+        "Bordeaux",
+        "Alsace",
+        "Loire"
+      ],
+      answer: "Provence",
+      explanation: "Bandol Domaine Le Galantin is a rosé from Bandol, Provence, France."
+    },
+    {
+      question: "Château Larose-Trintaudon Bordeaux Blend comes from which French wine region?",
+      choice: [
+        "Bordeaux (Haut-Médoc)",
+        "Burgundy",
+        "Beaujolais",
+        "Rhône"
+      ],
+      answer: "Bordeaux (Haut-Médoc)",
+      explanation: "Château Larose-Trintaudon is a Bordeaux Blend from Haut-Médoc, Bordeaux, France."
+    },
+    {
+      question: "Michel Tete ‘Cuvée Tradition’ Gamay is produced in which region?",
+      choice: [
+        "Beaujolais (Julienas)",
+        "Bordeaux",
+        "Provence",
+        "Alsace"
+      ],
+      answer: "Beaujolais (Julienas)",
+      explanation: "Michel Tete ‘Cuvée Tradition’ Gamay comes from Julienas, in the Beaujolais region of France."
+    },
+    {
+      question: "Vincent Paris Syrah is produced in which region?",
+      choice: [
+        "Northern Rhône (Crozes-Hermitage)",
+        "Burgundy",
+        "Bordeaux",
+        "Loire"
+      ],
+      answer: "Northern Rhône (Crozes-Hermitage)",
+      explanation: "Vincent Paris Syrah comes from Crozes-Hermitage, in the Northern Rhône Valley, France."
+    },
+     {
+    question: "What is the primary grape variety in Pierre Sparr Crémant d'Alsace?",
+    choice: [
+      "Pinot Blanc and Auxerrois",
+      "Chardonnay",
+      "Riesling",
+      "Sauvignon Blanc"
+    ],
+    answer: "Pinot Blanc and Auxerrois",
+    explanation: "Pierre Sparr Crémant d'Alsace is a sparkling wine made from Pinot Blanc and Auxerrois grapes."
+  },
+  {
+    question: "Which grape variety is used to make Chateau Chesnaie-Moriniere Muscadet?",
+    choice: [
+      "Melon de Bourgogne",
+      "Chenin Blanc",
+      "Sauvignon Blanc",
+      "Chardonnay"
+    ],
+    answer: "Melon de Bourgogne",
+    explanation: "Muscadet wines are made from the Melon de Bourgogne grape."
+  },
+  {
+    question: "What is the grape variety in Hugel Classic Pinot Gris?",
+    choice: [
+      "Pinot Gris",
+      "Riesling",
+      "Pinot Blanc",
+      "Gewürztraminer"
+    ],
+    answer: "Pinot Gris",
+    explanation: "Hugel Classic Pinot Gris is made from the Pinot Gris grape."
+  },
+  {
+    question: "Which grape is used in Louis Jadot Mâcon-Villages?",
+    choice: [
+      "Chardonnay",
+      "Pinot Noir",
+      "Sauvignon Blanc",
+      "Melon de Bourgogne"
+    ],
+    answer: "Chardonnay",
+    explanation: "Mâcon-Villages wines from Burgundy are made from Chardonnay."
+  },
+  {
+    question: "What grape varieties are found in Bandol Domaine Le Galantin Rosé?",
+    choice: [
+      "Cinsault, Grenache, Mourvedre",
+      "Syrah, Grenache, Carignan",
+      "Pinot Noir, Chardonnay",
+      "Gamay, Pinot Gris"
+    ],
+    answer: "Cinsault, Grenache, Mourvedre",
+    explanation: "Bandol Domaine Le Galantin Rosé is a blend of Cinsault, Grenache, and Mourvedre."
+  },
+  {
+    question: "What is the wine type of Château Larose-Trintaudon Bordeaux Blend?",
+    choice: [
+      "Red Blend",
+      "White Blend",
+      "Rosé",
+      "Sparkling"
+    ],
+    answer: "Red Blend",
+    explanation: "Château Larose-Trintaudon is a classic red Bordeaux blend."
+  },
+  {
+    question: "Which grape variety is featured in Michel Tete ‘Cuvée Tradition’ Julienas?",
+    choice: [
+      "Gamay",
+      "Pinot Noir",
+      "Syrah",
+      "Cabernet Franc"
+    ],
+    answer: "Gamay",
+    explanation: "Julienas, in Beaujolais, produces red wine made from the Gamay grape."
+  },
+  {
+    question: "What is the primary grape in Vincent Paris Syrah?",
+    choice: [
+      "Syrah",
+      "Grenache",
+      "Cabernet Sauvignon",
+      "Merlot"
+    ],
+    answer: "Syrah",
+    explanation: "Vincent Paris Crozes-Hermitage is made from 100% Syrah grapes."
+  },
+  {
+    question: "Who is the producer of the Crémant d'Alsace Pinot Blanc/Auxerrois on this list?",
+    choice: [
+      "Pierre Sparr",
+      "Louis Jadot",
+      "Hugel",
+      "Michel Tete"
+    ],
+    answer: "Pierre Sparr",
+    explanation: "Pierre Sparr is the producer of this sparkling wine from Alsace."
+  },
+  {
+    question: "Who produces the Muscadet from Pays Nantais, Lower Loire, France, 2022?",
+    choice: [
+      "Chateau Chesnaie-Moriniere",
+      "Vincent Paris",
+      "Bandol Domaine Le Galantin",
+      "Hugel"
+    ],
+    answer: "Chateau Chesnaie-Moriniere",
+    explanation: "Chateau Chesnaie-Moriniere is the producer of this Muscadet."
+  },
+  {
+    question: "What is the producer of the Classic Pinot Gris from Alsace, 2023?",
+    choice: [
+      "Hugel",
+      "Pierre Sparr",
+      "Louis Jadot",
+      "Château Larose-Trintaudon"
+    ],
+    answer: "Hugel",
+    explanation: "Hugel produces the Classic Pinot Gris from Alsace."
+  },
+  {
+    question: "Who is the producer of the Mâcon-Villages Chardonnay from Burgundy, 2022?",
+    choice: [
+      "Louis Jadot",
+      "Pierre Sparr",
+      "Michel Tete",
+      "Chateau Chesnaie-Moriniere"
+    ],
+    answer: "Louis Jadot",
+    explanation: "Louis Jadot is the famous Burgundy house producing this Mâcon-Villages Chardonnay."
+  },
+  {
+    question: "What is the producer of the Bandol Rosé from Provence, 2023?",
+    choice: [
+      "Domaine Le Galantin",
+      "Vincent Paris",
+      "Château Larose-Trintaudon",
+      "Pierre Sparr"
+    ],
+    answer: "Domaine Le Galantin",
+    explanation: "Bandol Domaine Le Galantin is the producer of this Provence rosé."
+  },
+  {
+    question: "Who produces the Bordeaux Blend from Haut-Médoc, Bordeaux, 2019?",
+    choice: [
+      "Château Larose-Trintaudon",
+      "Louis Jadot",
+      "Hugel",
+      "Domaine Le Galantin"
+    ],
+    answer: "Château Larose-Trintaudon",
+    explanation: "Château Larose-Trintaudon is the producer of this classic Bordeaux blend."
+  },
+  {
+    question: "What is the producer of the ‘Cuvée Tradition’ Gamay from Julienas, Beaujolais, 2023?",
+    choice: [
+      "Michel Tete",
+      "Vincent Paris",
+      "Louis Jadot",
+      "Pierre Sparr"
+    ],
+    answer: "Michel Tete",
+    explanation: "Michel Tete is the producer of the ‘Cuvée Tradition’ Gamay from Julienas."
+  },
+  {
+    question: "Who produces the Syrah from Crozes-Hermitage, Northern Rhône, 2023?",
+    choice: [
+      "Vincent Paris",
+      "Château Larose-Trintaudon",
+      "Michel Tete",
+      "Domaine Le Galantin"
+    ],
+    answer: "Vincent Paris",
+    explanation: "Vincent Paris is the producer of this Syrah from Crozes-Hermitage."
+  },
+  {
+    question: "What is the vintage of the Pierre Sparr Crémant d'Alsace Pinot Blanc/Auxerrois on this list?",
+    choice: [
+      "NV (Non-Vintage)",
+      "2022",
+      "2023",
+      "2019"
+    ],
+    answer: "NV (Non-Vintage)",
+    explanation: "Pierre Sparr Crémant d'Alsace on the list is Non-Vintage (NV), as is common for many sparkling wines."
+  },
+  {
+    question: "What is the vintage of Chateau Chesnaie-Moriniere Muscadet on this list?",
+    choice: [
+      "2022",
+      "2023",
+      "NV (Non-Vintage)",
+      "2019"
+    ],
+    answer: "2022",
+    explanation: "The Chateau Chesnaie-Moriniere Muscadet listed is from the 2022 vintage."
+  },
+  {
+    question: "What vintage is the Hugel Classic Pinot Gris from Alsace on this menu?",
+    choice: [
+      "2023",
+      "2022",
+      "2019",
+      "NV (Non-Vintage)"
+    ],
+    answer: "2023",
+    explanation: "Hugel Classic Pinot Gris from Alsace is from the 2023 vintage."
+  },
+  {
+    question: "What is the vintage of Louis Jadot Mâcon-Villages Chardonnay, Burgundy, on this list?",
+    choice: [
+      "2022",
+      "2023",
+      "2019",
+      "NV (Non-Vintage)"
+    ],
+    answer: "2022",
+    explanation: "Louis Jadot Mâcon-Villages Chardonnay is from the 2022 vintage."
+  },
+  {
+    question: "Which vintage is the Bandol Domaine Le Galantin Rosé, Provence, on this menu?",
+    choice: [
+      "2023",
+      "2022",
+      "2019",
+      "NV (Non-Vintage)"
+    ],
+    answer: "2023",
+    explanation: "Bandol Domaine Le Galantin Rosé, Provence, is from the 2023 vintage."
+  },
+  {
+    question: "Château Larose-Trintaudon Bordeaux Blend, Haut-Médoc, Bordeaux is from which vintage?",
+    choice: [
+      "2019",
+      "2022",
+      "2023",
+      "NV (Non-Vintage)"
+    ],
+    answer: "2019",
+    explanation: "Château Larose-Trintaudon Bordeaux Blend is from the 2019 vintage."
+  },
+  {
+    question: "Michel Tete ‘Cuvée Tradition’ Gamay, Julienas, Beaujolais is from which vintage?",
+    choice: [
+      "2023",
+      "2022",
+      "2019",
+      "NV (Non-Vintage)"
+    ],
+    answer: "2023",
+    explanation: "Michel Tete ‘Cuvée Tradition’ Gamay, Julienas, Beaujolais is from the 2023 vintage."
+  },
+  {
+    question: "What is the vintage of Vincent Paris Syrah, Crozes-Hermitage, Northern Rhône?",
+    choice: [
+      "2023",
+      "2022",
+      "2019",
+      "NV (Non-Vintage)"
+    ],
+    answer: "2023",
+    explanation: "Vincent Paris Syrah, Crozes-Hermitage, Northern Rhône is from the 2023 vintage."
+  },
+  {
+    question: "What type of wine is Pierre Sparr Crémant d'Alsace Pinot Blanc/Auxerrois?",
+    choice: [
+      "Sparkling",
+      "White",
+      "Rosé",
+      "Red"
+    ],
+    answer: "Sparkling",
+    explanation: "Pierre Sparr Crémant d'Alsace is a sparkling wine from Alsace."
+  },
+  {
+    question: "What type of wine is Chateau Chesnaie-Moriniere Muscadet?",
+    choice: [
+      "White",
+      "Red",
+      "Sparkling",
+      "Rosé"
+    ],
+    answer: "White",
+    explanation: "Muscadet is a white wine from the Loire Valley."
+  },
+  {
+    question: "Hugel Classic Pinot Gris from Alsace is what style of wine?",
+    choice: [
+      "White",
+      "Red",
+      "Rosé",
+      "Sparkling"
+    ],
+    answer: "White",
+    explanation: "Pinot Gris from Alsace is a white wine."
+  },
+  {
+    question: "What type of wine is Louis Jadot Mâcon-Villages Chardonnay?",
+    choice: [
+      "White",
+      "Red",
+      "Rosé",
+      "Sparkling"
+    ],
+    answer: "White",
+    explanation: "Mâcon-Villages Chardonnay is a white wine from Burgundy."
+  },
+  {
+    question: "Bandol Domaine Le Galantin (Cinsault, Grenache, Mourvedre) is which type of wine?",
+    choice: [
+      "Rosé",
+      "Red",
+      "White",
+      "Sparkling"
+    ],
+    answer: "Rosé",
+    explanation: "Bandol Domaine Le Galantin is a rosé wine from Provence."
+  },
+  {
+    question: "Château Larose-Trintaudon Bordeaux Blend from Haut-Médoc is what style of wine?",
+    choice: [
+      "Red",
+      "White",
+      "Rosé",
+      "Sparkling"
+    ],
+    answer: "Red",
+    explanation: "Château Larose-Trintaudon is a red Bordeaux blend."
+  },
+  {
+    question: "Michel Tete ‘Cuvée Tradition’ Gamay from Julienas, Beaujolais is which type of wine?",
+    choice: [
+      "Red",
+      "White",
+      "Rosé",
+      "Sparkling"
+    ],
+    answer: "Red",
+    explanation: "Julienas, Beaujolais produces red wines from Gamay."
+  },
+  {
+    question: "Vincent Paris Syrah from Crozes-Hermitage, Northern Rhône is what style of wine?",
+    choice: [
+      "Red",
+      "White",
+      "Rosé",
+      "Sparkling"
+    ],
+    answer: "Red",
+    explanation: "Crozes-Hermitage in the Northern Rhône is known for its red Syrah wines."
+  },
+
   ],
+
+
+
+
 
 
 
@@ -693,413 +1140,413 @@ const questions = {
       explanation: "Gamay is the star grape of France's Beaujolais region. It produces lively, fruity reds meant for early drinking, with flavors of raspberry, cherry, and sometimes banana from carbonic maceration.",
     },
     {
-  question: "Which type of climate generally produces wines with a fuller body?",
-  choice: [
-    "Warmer climate",
-    "Cooler climate",
-    
-  ],
-  answer: "Warmer climate",
-  explanation: "Grapes from warmer climates develop more sugar and ripeness, resulting in fuller-bodied wines.",
-},
-{
-  question: "Wines from which climate are likely to have a lighter color?",
-  choice: [
-    "Cooler climate",
-    "Warmer climate",
-    
-  ],
-  answer: "Cooler climate",
-  explanation: "Cooler climates result in less pigment development in grape skins, so wines are typically lighter in color.",
-},
-{
-  question: "More intense flavors in wine are generally the result of grapes grown in which climate?",
-  choice: [
-    "Warmer climate",
-    "Cooler climate",
-    
-  ],
-  answer: "Warmer climate",
-  explanation: "Warm climates produce riper, more concentrated flavors in grapes, leading to intense wine flavors.",
-},
-{
-  question: "Wines from which climate typically have lower alcohol?",
-  choice: [
-    "Cooler climate",
-    "Warmer climate",
-    
-  ],
-  answer: "Cooler climate",
-  explanation: "Cool climates slow down sugar production in grapes, so finished wines have lower alcohol content.",
-},
-{
-  question: "Higher alcohol content in wine usually indicates grapes grown in what type of climate?",
-  choice: [
-    "Warmer climate",
-    "Cooler climate",
-    
-  ],
-  answer: "Warmer climate",
-  explanation: "Warmer climates increase sugar accumulation, which leads to higher alcohol after fermentation.",
-},
-{
-  question: "Darker colored wines are typically a result of grapes grown in which climate?",
-  choice: [
-    "Warmer climate",
-    "Cooler climate",
-    
-  ],
-  answer: "Warmer climate",
-  explanation: "Warmer climates allow for greater pigment development in grapes, making red wines darker.",
-},
-{
-  question: "More delicate flavors in wine are usually associated with grapes from which climate?",
-  choice: [
-    "Cooler climate",
-    "Warmer climate",
-    
-  ],
-  answer: "Cooler climate",
-  explanation: "Cooler climates preserve subtle aromatics and restrained fruit, resulting in more delicate flavors.",
-},
-{
-  question: "Which climate produces wines with a lighter body?",
-  choice: [
-    "Cooler climate",
-    "Warmer climate",
-    
-  ],
-  answer: "Cooler climate",
-  explanation: "Cooler climates result in less sugar and alcohol, making wines feel lighter in body.",
-},
-{
-  question: "Higher acidity is generally found in wines from which type of climate?",
-  choice: [
-    "Cooler climate",
-    "Warmer climate",
-    
-  ],
-  answer: "Cooler climate",
-  explanation: "Cool climates preserve more natural acidity in grapes, leading to fresher-tasting wines.",
-},
-{
-  question: "Thicker grape skins, which can lead to higher tannin and color in red wines, are most often found in grapes grown in what climate?",
-  choice: [
-    "Warmer climate",
-    "Cooler climate",
-    
-  ],
-  answer: "Warmer climate",
-  explanation: "Warm climates cause grapes to develop thicker skins to protect from sun and dehydration.",
-},
-{
-  question: "Which grape variety is considered a classic cool climate grape?",
-  choice: [
-    "Pinot Noir",
-    "Cabernet Sauvignon",
-    "Zinfandel",
-    "Syrah",
-  ],
-  answer: "Pinot Noir",
-  explanation: "Pinot Noir is known for thriving in cool climates and producing elegant, high-acid wines.",
-},
-{
-  question: "Which climate is typically best for producing sparkling wine?",
-  choice: [
-    "Cool climate",
-    "Warm climate",
-    "Arid climate",
-    "Tropical climate",
-  ],
-  answer: "Cool climate",
-  explanation: "Cool climates preserve acidity in grapes, which is ideal for high-quality sparkling wine.",
-},
-{
-  question: "Which type of grape is most commonly used in classic European wines?",
-  choice: [
-    "Vitis Vinifera",
-    "Vitis Riparia",
-    "Hybrid",
-    "Labrusca",
-  ],
-  answer: "Vitis Vinifera",
-  explanation: "Vitis Vinifera is the species responsible for most traditional European wines.",
-},
-{
-  question: "What is the primary function of rootstock in viticulture?",
-  choice: [
-    "Disease resistance",
-    "Flavor enhancement",
-    "Color preservation",
-    "Sugar accumulation",
-  ],
-  answer: "Disease resistance",
-  explanation: "Rootstock, such as Vitis Riparia, is often used for its resistance to pests and diseases like phylloxera.",
-},
-{
-  question: "Which climate is Cabernet Sauvignon most associated with for optimal ripeness?",
-  choice: [
-    "Warm climate",
-    "Cool climate",
-    "Wet climate",
-    "Mountain climate",
-  ],
-  answer: "Warm climate",
-  explanation: "Cabernet Sauvignon ripens best and achieves fuller body and flavor in warmer climates.",
-},
-{
-  question: "Which type of grapevine is most resistant to cold, making it suitable as a rootstock in cooler regions?",
-  choice: [
-    "Vitis Riparia",
-    "Vitis Vinifera",
-    "Concord",
-    "Zinfandel",
-  ],
-  answer: "Vitis Riparia",
-  explanation: "Vitis Riparia is valued for its resistance to cold and is often used as rootstock in cool climates.",
-},
-{
-  question: "A crossing of two grape species results in what kind of vine?",
-  choice: [
-    "Hybrid",
-    "Varietal",
-    "Clone",
-    "Mutation",
-  ],
-  answer: "Hybrid",
-  explanation: "A hybrid grape is a crossing between two different grape species, often for disease resistance or cold hardiness.",
-},
-{
-  question: "Which wine style is most often associated with earth-driven flavors?",
-  choice: [
-    "Red wines",
-    "Rosé wines",
-    "White wines",
-    "Sparkling wines",
-  ],
-  answer: "Red wines",
-  explanation: "Earth-driven flavors such as mushroom, forest floor, and mineral notes are commonly found in red wines.",
-},
-{
-  question: "Which vineyard condition is most associated with improved water drainage for vines?",
-  choice: [
-    "Rocky soils",
-    "Clay soils",
-    "Windy conditions",
-    "Close proximity to water",
-  ],
-  answer: "Rocky soils",
-  explanation: "Rocky soils allow excess water to drain away, preventing waterlogging and encouraging deep root growth.",
-},
-{
-  question: "Which vineyard condition typically causes grape skins to become thicker?",
-  choice: [
-    "Windy conditions",
-    "Rocky soils",
-    "Close proximity to water",
-    "High rainfall",
-  ],
-  answer: "Windy conditions",
-  explanation: "Windy conditions stress the grapevines, resulting in grapes with thicker skins for protection.",
-},
-{
-  question: "Which type of soil is known for its water retention properties?",
-  choice: [
-    "Clay soils",
-    "Rocky soils",
-    "Sandy soils",
-    "Volcanic soils",
-  ],
-  answer: "Clay soils",
-  explanation: "Clay soils retain water, which can be beneficial in drier climates but problematic in wetter ones.",
-},
-{
-  question: "What is a typical climatic effect of higher altitude vineyards?",
-  choice: [
-    "Cooler temperature but more sunlight",
-    "Warmer temperatures",
-    "High humidity",
-    "More rainfall",
-  ],
-  answer: "Cooler temperature but more sunlight",
-  explanation: "Higher altitudes have cooler temperatures, but the thinner atmosphere means grapes get more intense sunlight.",
-},
-{
-  question: "What is a key result of close proximity to water for a vineyard?",
-  choice: [
-    "Temperature moderation",
-    "Increased disease pressure",
-    "Water drainage",
-    "Thicker grape skins",
-  ],
-  answer: "Temperature moderation",
-  explanation: "Large bodies of water moderate the surrounding temperature, reducing extreme heat or cold in vineyards nearby.",
-},
-{
-  question: "What is the major result from Phylloxera?",
-  choice: [
-    "Early grape maturation",
-    "Most vineyards are grafted",
-    "Superior plant DNA",
-    "Prevention of mildew",
-  ],
-  answer: "Most vineyards are grafted",
-  explanation: "Phylloxera is a pest that attacks grapevine roots. To protect vines, most vineyards now use grafted plants with resistant rootstocks.",
-},
-{
-  question: "In the Northern Hemisphere, which month does grape harvest typically occur?",
-  choice: [
-    "September",
-    "May",
-    "February",
-    "March",
-  ],
-  answer: "September",
-  explanation: "Harvest in the Northern Hemisphere usually happens in September, marking the end of the growing season.",
-},
-{
-  question: "During which month does flowering typically happen in Northern Hemisphere vineyards?",
-  choice: [
-    "May",
-    "July",
-    "March",
-    "February",
-  ],
-  answer: "May",
-  explanation: "Flowering occurs in late spring, typically in May in the Northern Hemisphere, as the vines begin to form clusters.",
-},
-{
-  question: "Which month is most associated with pruning in Northern Hemisphere vineyards?",
-  choice: [
-    "February",
-    "July",
-    "September",
-    "May",
-  ],
-  answer: "February",
-  explanation: "Pruning is usually done in February while the vines are dormant, before the start of the new growing season.",
-},
-{
-  question: "Budbreak, when the first green shoots appear, generally occurs in which month in the Northern Hemisphere?",
-  choice: [
-    "March",
-    "May",
-    "February",
-    "September",
-  ],
-  answer: "March",
-  explanation: "Budbreak takes place in March, when warmer weather awakens the vines from dormancy.",
-},
-{
-  question: "In the vineyard calendar, véraison, when grapes begin to ripen and change color, happens in which month in the Northern Hemisphere?",
-  choice: [
-    "July",
-    "May",
-    "February",
-    "March",
-  ],
-  answer: "July",
-  explanation: "Véraison occurs in July, marking the onset of ripening as grapes change color and soften.",
-},
-{
-  question: "Which winemaking technique is used to increase acidity in wine?",
-  choice: [
-    "Acidification",
-    "Bâtonnage",
-    "Malolactic Conversion",
-    "Chaptalization",
-  ],
-  answer: "Acidification",
-  explanation: "Acidification involves adding acid (usually tartaric) to the must or wine to increase its acidity, often in warm climates where natural acidity can be low.",
-},
-{
-  question: "Which technique makes red wine more fruity and low in tannin?",
-  choice: [
-    "Carbonic Maceration",
-    "Saignée",
-    "Bâtonnage",
-    "Punch down",
-  ],
-  answer: "Carbonic Maceration",
-  explanation: "Carbonic maceration ferments whole grapes in a CO₂-rich environment, producing fruity, low-tannin red wines like Beaujolais Nouveau.",
-},
-{
-  question: "Which winemaking method is used to lower tannins in red wines and increase skin-to-juice ratio?",
-  choice: [
-    "Saignée",
-    "Malolactic Conversion",
-    "Punch down",
-    "Late Harvest",
-  ],
-  answer: "Saignée",
-  explanation: "Saignée, or 'bleeding,' removes some juice from the must early in fermentation, concentrating the remaining wine and reducing tannin extraction.",
-},
-{
-  question: "What technique increases sugar content in grape must and is associated with higher potential alcohol?",
-  choice: [
-    "Late Harvest",
-    "Chaptalization",
-    "Bâtonnage",
-    "Acidification",
-  ],
-  answer: "Late Harvest",
-  explanation: "Late Harvest refers to grapes picked late in the season when they are riper and have more sugar, leading to sweeter or more alcoholic wines.",
-},
-{
-  question: "Which technique is responsible for creating a creamy texture in wines, especially whites?",
-  choice: [
-    "Bâtonnage",
-    "Malolactic Conversion",
-    "Chaptalization",
-    "Saignée",
-  ],
-  answer: "Bâtonnage",
-  explanation: "Bâtonnage is the process of stirring lees in barrel-aged wines, giving a creamy, rich mouthfeel.",
-},
-{
-  question: "Which winemaking process is specifically used to increase the potential alcohol in wine?",
-  choice: [
-    "Chaptalization",
-    "Late Harvest",
-    "Carbonic Maceration",
-    "Punch down",
-  ],
-  answer: "Chaptalization",
-  explanation: "Chaptalization is the addition of sugar to grape must to increase the potential alcohol content of the final wine.",
-},
-{
-  question: "Which technique is responsible for creating buttery flavors in white wines and lowering overall acidity?",
-  choice: [
-    "Malolactic Conversion",
-    "Bâtonnage",
-    "Saignée",
-    "Carbonic Maceration",
-  ],
-  answer: "Malolactic Conversion",
-  explanation: "Malolactic conversion transforms malic acid into lactic acid, softening acidity and often adding a buttery note to white wines.",
-},
-{
-  question: "Which winemaking technique keeps the 'cap' moist and extracts color, flavor, and structure during fermentation?",
-  choice: [
-    "Punch down or Pump-over",
-    "Saignée",
-    "Bâtonnage",
-    "Late Harvest",
-  ],
-  answer: "Punch down or Pump-over",
-  explanation: "Punching down or pumping over submerges or circulates the cap of skins, seeds, and stems during red wine fermentation, extracting color, flavor, and structure.",
-},
-{
-  question: "Which combination will impart the most oak flavor to a wine?",
-  choice: [
-    "large, old, high-toast barrel aging for 18 months",
-    "large, old, low-toast barrel for 24 months",
-    "old, small, low-toast barrel for 16 months",
-    "small, new, high-toast barrel aging for 12 months",
-  ],
-  answer: "small, new, high-toast barrel aging for 12 months",
-  explanation: "Small, new, high-toast barrels expose the wine to more fresh oak surface area and intense toasty flavors, resulting in the most pronounced oak influence.",
-},
+      question: "Which type of climate generally produces wines with a fuller body?",
+      choice: [
+        "Warmer climate",
+        "Cooler climate",
+
+      ],
+      answer: "Warmer climate",
+      explanation: "Grapes from warmer climates develop more sugar and ripeness, resulting in fuller-bodied wines.",
+    },
+    {
+      question: "Wines from which climate are likely to have a lighter color?",
+      choice: [
+        "Cooler climate",
+        "Warmer climate",
+
+      ],
+      answer: "Cooler climate",
+      explanation: "Cooler climates result in less pigment development in grape skins, so wines are typically lighter in color.",
+    },
+    {
+      question: "More intense flavors in wine are generally the result of grapes grown in which climate?",
+      choice: [
+        "Warmer climate",
+        "Cooler climate",
+
+      ],
+      answer: "Warmer climate",
+      explanation: "Warm climates produce riper, more concentrated flavors in grapes, leading to intense wine flavors.",
+    },
+    {
+      question: "Wines from which climate typically have lower alcohol?",
+      choice: [
+        "Cooler climate",
+        "Warmer climate",
+
+      ],
+      answer: "Cooler climate",
+      explanation: "Cool climates slow down sugar production in grapes, so finished wines have lower alcohol content.",
+    },
+    {
+      question: "Higher alcohol content in wine usually indicates grapes grown in what type of climate?",
+      choice: [
+        "Warmer climate",
+        "Cooler climate",
+
+      ],
+      answer: "Warmer climate",
+      explanation: "Warmer climates increase sugar accumulation, which leads to higher alcohol after fermentation.",
+    },
+    {
+      question: "Darker colored wines are typically a result of grapes grown in which climate?",
+      choice: [
+        "Warmer climate",
+        "Cooler climate",
+
+      ],
+      answer: "Warmer climate",
+      explanation: "Warmer climates allow for greater pigment development in grapes, making red wines darker.",
+    },
+    {
+      question: "More delicate flavors in wine are usually associated with grapes from which climate?",
+      choice: [
+        "Cooler climate",
+        "Warmer climate",
+
+      ],
+      answer: "Cooler climate",
+      explanation: "Cooler climates preserve subtle aromatics and restrained fruit, resulting in more delicate flavors.",
+    },
+    {
+      question: "Which climate produces wines with a lighter body?",
+      choice: [
+        "Cooler climate",
+        "Warmer climate",
+
+      ],
+      answer: "Cooler climate",
+      explanation: "Cooler climates result in less sugar and alcohol, making wines feel lighter in body.",
+    },
+    {
+      question: "Higher acidity is generally found in wines from which type of climate?",
+      choice: [
+        "Cooler climate",
+        "Warmer climate",
+
+      ],
+      answer: "Cooler climate",
+      explanation: "Cool climates preserve more natural acidity in grapes, leading to fresher-tasting wines.",
+    },
+    {
+      question: "Thicker grape skins, which can lead to higher tannin and color in red wines, are most often found in grapes grown in what climate?",
+      choice: [
+        "Warmer climate",
+        "Cooler climate",
+
+      ],
+      answer: "Warmer climate",
+      explanation: "Warm climates cause grapes to develop thicker skins to protect from sun and dehydration.",
+    },
+    {
+      question: "Which grape variety is considered a classic cool climate grape?",
+      choice: [
+        "Pinot Noir",
+        "Cabernet Sauvignon",
+        "Zinfandel",
+        "Syrah",
+      ],
+      answer: "Pinot Noir",
+      explanation: "Pinot Noir is known for thriving in cool climates and producing elegant, high-acid wines.",
+    },
+    {
+      question: "Which climate is typically best for producing sparkling wine?",
+      choice: [
+        "Cool climate",
+        "Warm climate",
+        "Arid climate",
+        "Tropical climate",
+      ],
+      answer: "Cool climate",
+      explanation: "Cool climates preserve acidity in grapes, which is ideal for high-quality sparkling wine.",
+    },
+    {
+      question: "Which type of grape is most commonly used in classic European wines?",
+      choice: [
+        "Vitis Vinifera",
+        "Vitis Riparia",
+        "Hybrid",
+        "Labrusca",
+      ],
+      answer: "Vitis Vinifera",
+      explanation: "Vitis Vinifera is the species responsible for most traditional European wines.",
+    },
+    {
+      question: "What is the primary function of rootstock in viticulture?",
+      choice: [
+        "Disease resistance",
+        "Flavor enhancement",
+        "Color preservation",
+        "Sugar accumulation",
+      ],
+      answer: "Disease resistance",
+      explanation: "Rootstock, such as Vitis Riparia, is often used for its resistance to pests and diseases like phylloxera.",
+    },
+    {
+      question: "Which climate is Cabernet Sauvignon most associated with for optimal ripeness?",
+      choice: [
+        "Warm climate",
+        "Cool climate",
+        "Wet climate",
+        "Mountain climate",
+      ],
+      answer: "Warm climate",
+      explanation: "Cabernet Sauvignon ripens best and achieves fuller body and flavor in warmer climates.",
+    },
+    {
+      question: "Which type of grapevine is most resistant to cold, making it suitable as a rootstock in cooler regions?",
+      choice: [
+        "Vitis Riparia",
+        "Vitis Vinifera",
+        "Concord",
+        "Zinfandel",
+      ],
+      answer: "Vitis Riparia",
+      explanation: "Vitis Riparia is valued for its resistance to cold and is often used as rootstock in cool climates.",
+    },
+    {
+      question: "A crossing of two grape species results in what kind of vine?",
+      choice: [
+        "Hybrid",
+        "Varietal",
+        "Clone",
+        "Mutation",
+      ],
+      answer: "Hybrid",
+      explanation: "A hybrid grape is a crossing between two different grape species, often for disease resistance or cold hardiness.",
+    },
+    {
+      question: "Which wine style is most often associated with earth-driven flavors?",
+      choice: [
+        "Red wines",
+        "Rosé wines",
+        "White wines",
+        "Sparkling wines",
+      ],
+      answer: "Red wines",
+      explanation: "Earth-driven flavors such as mushroom, forest floor, and mineral notes are commonly found in red wines.",
+    },
+    {
+      question: "Which vineyard condition is most associated with improved water drainage for vines?",
+      choice: [
+        "Rocky soils",
+        "Clay soils",
+        "Windy conditions",
+        "Close proximity to water",
+      ],
+      answer: "Rocky soils",
+      explanation: "Rocky soils allow excess water to drain away, preventing waterlogging and encouraging deep root growth.",
+    },
+    {
+      question: "Which vineyard condition typically causes grape skins to become thicker?",
+      choice: [
+        "Windy conditions",
+        "Rocky soils",
+        "Close proximity to water",
+        "High rainfall",
+      ],
+      answer: "Windy conditions",
+      explanation: "Windy conditions stress the grapevines, resulting in grapes with thicker skins for protection.",
+    },
+    {
+      question: "Which type of soil is known for its water retention properties?",
+      choice: [
+        "Clay soils",
+        "Rocky soils",
+        "Sandy soils",
+        "Volcanic soils",
+      ],
+      answer: "Clay soils",
+      explanation: "Clay soils retain water, which can be beneficial in drier climates but problematic in wetter ones.",
+    },
+    {
+      question: "What is a typical climatic effect of higher altitude vineyards?",
+      choice: [
+        "Cooler temperature but more sunlight",
+        "Warmer temperatures",
+        "High humidity",
+        "More rainfall",
+      ],
+      answer: "Cooler temperature but more sunlight",
+      explanation: "Higher altitudes have cooler temperatures, but the thinner atmosphere means grapes get more intense sunlight.",
+    },
+    {
+      question: "What is a key result of close proximity to water for a vineyard?",
+      choice: [
+        "Temperature moderation",
+        "Increased disease pressure",
+        "Water drainage",
+        "Thicker grape skins",
+      ],
+      answer: "Temperature moderation",
+      explanation: "Large bodies of water moderate the surrounding temperature, reducing extreme heat or cold in vineyards nearby.",
+    },
+    {
+      question: "What is the major result from Phylloxera?",
+      choice: [
+        "Early grape maturation",
+        "Most vineyards are grafted",
+        "Superior plant DNA",
+        "Prevention of mildew",
+      ],
+      answer: "Most vineyards are grafted",
+      explanation: "Phylloxera is a pest that attacks grapevine roots. To protect vines, most vineyards now use grafted plants with resistant rootstocks.",
+    },
+    {
+      question: "In the Northern Hemisphere, which month does grape harvest typically occur?",
+      choice: [
+        "September",
+        "May",
+        "February",
+        "March",
+      ],
+      answer: "September",
+      explanation: "Harvest in the Northern Hemisphere usually happens in September, marking the end of the growing season.",
+    },
+    {
+      question: "During which month does flowering typically happen in Northern Hemisphere vineyards?",
+      choice: [
+        "May",
+        "July",
+        "March",
+        "February",
+      ],
+      answer: "May",
+      explanation: "Flowering occurs in late spring, typically in May in the Northern Hemisphere, as the vines begin to form clusters.",
+    },
+    {
+      question: "Which month is most associated with pruning in Northern Hemisphere vineyards?",
+      choice: [
+        "February",
+        "July",
+        "September",
+        "May",
+      ],
+      answer: "February",
+      explanation: "Pruning is usually done in February while the vines are dormant, before the start of the new growing season.",
+    },
+    {
+      question: "Budbreak, when the first green shoots appear, generally occurs in which month in the Northern Hemisphere?",
+      choice: [
+        "March",
+        "May",
+        "February",
+        "September",
+      ],
+      answer: "March",
+      explanation: "Budbreak takes place in March, when warmer weather awakens the vines from dormancy.",
+    },
+    {
+      question: "In the vineyard calendar, véraison, when grapes begin to ripen and change color, happens in which month in the Northern Hemisphere?",
+      choice: [
+        "July",
+        "May",
+        "February",
+        "March",
+      ],
+      answer: "July",
+      explanation: "Véraison occurs in July, marking the onset of ripening as grapes change color and soften.",
+    },
+    {
+      question: "Which winemaking technique is used to increase acidity in wine?",
+      choice: [
+        "Acidification",
+        "Bâtonnage",
+        "Malolactic Conversion",
+        "Chaptalization",
+      ],
+      answer: "Acidification",
+      explanation: "Acidification involves adding acid (usually tartaric) to the must or wine to increase its acidity, often in warm climates where natural acidity can be low.",
+    },
+    {
+      question: "Which technique makes red wine more fruity and low in tannin?",
+      choice: [
+        "Carbonic Maceration",
+        "Saignée",
+        "Bâtonnage",
+        "Punch down",
+      ],
+      answer: "Carbonic Maceration",
+      explanation: "Carbonic maceration ferments whole grapes in a CO₂-rich environment, producing fruity, low-tannin red wines like Beaujolais Nouveau.",
+    },
+    {
+      question: "Which winemaking method is used to lower tannins in red wines and increase skin-to-juice ratio?",
+      choice: [
+        "Saignée",
+        "Malolactic Conversion",
+        "Punch down",
+        "Late Harvest",
+      ],
+      answer: "Saignée",
+      explanation: "Saignée, or 'bleeding,' removes some juice from the must early in fermentation, concentrating the remaining wine and reducing tannin extraction.",
+    },
+    {
+      question: "What technique increases sugar content in grape must and is associated with higher potential alcohol?",
+      choice: [
+        "Late Harvest",
+        "Chaptalization",
+        "Bâtonnage",
+        "Acidification",
+      ],
+      answer: "Late Harvest",
+      explanation: "Late Harvest refers to grapes picked late in the season when they are riper and have more sugar, leading to sweeter or more alcoholic wines.",
+    },
+    {
+      question: "Which technique is responsible for creating a creamy texture in wines, especially whites?",
+      choice: [
+        "Bâtonnage",
+        "Malolactic Conversion",
+        "Chaptalization",
+        "Saignée",
+      ],
+      answer: "Bâtonnage",
+      explanation: "Bâtonnage is the process of stirring lees in barrel-aged wines, giving a creamy, rich mouthfeel.",
+    },
+    {
+      question: "Which winemaking process is specifically used to increase the potential alcohol in wine?",
+      choice: [
+        "Chaptalization",
+        "Late Harvest",
+        "Carbonic Maceration",
+        "Punch down",
+      ],
+      answer: "Chaptalization",
+      explanation: "Chaptalization is the addition of sugar to grape must to increase the potential alcohol content of the final wine.",
+    },
+    {
+      question: "Which technique is responsible for creating buttery flavors in white wines and lowering overall acidity?",
+      choice: [
+        "Malolactic Conversion",
+        "Bâtonnage",
+        "Saignée",
+        "Carbonic Maceration",
+      ],
+      answer: "Malolactic Conversion",
+      explanation: "Malolactic conversion transforms malic acid into lactic acid, softening acidity and often adding a buttery note to white wines.",
+    },
+    {
+      question: "Which winemaking technique keeps the 'cap' moist and extracts color, flavor, and structure during fermentation?",
+      choice: [
+        "Punch down or Pump-over",
+        "Saignée",
+        "Bâtonnage",
+        "Late Harvest",
+      ],
+      answer: "Punch down or Pump-over",
+      explanation: "Punching down or pumping over submerges or circulates the cap of skins, seeds, and stems during red wine fermentation, extracting color, flavor, and structure.",
+    },
+    {
+      question: "Which combination will impart the most oak flavor to a wine?",
+      choice: [
+        "large, old, high-toast barrel aging for 18 months",
+        "large, old, low-toast barrel for 24 months",
+        "old, small, low-toast barrel for 16 months",
+        "small, new, high-toast barrel aging for 12 months",
+      ],
+      answer: "small, new, high-toast barrel aging for 12 months",
+      explanation: "Small, new, high-toast barrels expose the wine to more fresh oak surface area and intense toasty flavors, resulting in the most pronounced oak influence.",
+    },
 
 
   ],
