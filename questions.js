@@ -692,7 +692,414 @@ const questions = {
       answer: "Gamay",
       explanation: "Gamay is the star grape of France's Beaujolais region. It produces lively, fruity reds meant for early drinking, with flavors of raspberry, cherry, and sometimes banana from carbonic maceration.",
     },
-
+    {
+  question: "Which type of climate generally produces wines with a fuller body?",
+  choice: [
+    "Warmer climate",
+    "Cooler climate",
+    
+  ],
+  answer: "Warmer climate",
+  explanation: "Grapes from warmer climates develop more sugar and ripeness, resulting in fuller-bodied wines.",
+},
+{
+  question: "Wines from which climate are likely to have a lighter color?",
+  choice: [
+    "Cooler climate",
+    "Warmer climate",
+    
+  ],
+  answer: "Cooler climate",
+  explanation: "Cooler climates result in less pigment development in grape skins, so wines are typically lighter in color.",
+},
+{
+  question: "More intense flavors in wine are generally the result of grapes grown in which climate?",
+  choice: [
+    "Warmer climate",
+    "Cooler climate",
+    
+  ],
+  answer: "Warmer climate",
+  explanation: "Warm climates produce riper, more concentrated flavors in grapes, leading to intense wine flavors.",
+},
+{
+  question: "Wines from which climate typically have lower alcohol?",
+  choice: [
+    "Cooler climate",
+    "Warmer climate",
+    
+  ],
+  answer: "Cooler climate",
+  explanation: "Cool climates slow down sugar production in grapes, so finished wines have lower alcohol content.",
+},
+{
+  question: "Higher alcohol content in wine usually indicates grapes grown in what type of climate?",
+  choice: [
+    "Warmer climate",
+    "Cooler climate",
+    
+  ],
+  answer: "Warmer climate",
+  explanation: "Warmer climates increase sugar accumulation, which leads to higher alcohol after fermentation.",
+},
+{
+  question: "Darker colored wines are typically a result of grapes grown in which climate?",
+  choice: [
+    "Warmer climate",
+    "Cooler climate",
+    
+  ],
+  answer: "Warmer climate",
+  explanation: "Warmer climates allow for greater pigment development in grapes, making red wines darker.",
+},
+{
+  question: "More delicate flavors in wine are usually associated with grapes from which climate?",
+  choice: [
+    "Cooler climate",
+    "Warmer climate",
+    
+  ],
+  answer: "Cooler climate",
+  explanation: "Cooler climates preserve subtle aromatics and restrained fruit, resulting in more delicate flavors.",
+},
+{
+  question: "Which climate produces wines with a lighter body?",
+  choice: [
+    "Cooler climate",
+    "Warmer climate",
+    
+  ],
+  answer: "Cooler climate",
+  explanation: "Cooler climates result in less sugar and alcohol, making wines feel lighter in body.",
+},
+{
+  question: "Higher acidity is generally found in wines from which type of climate?",
+  choice: [
+    "Cooler climate",
+    "Warmer climate",
+    
+  ],
+  answer: "Cooler climate",
+  explanation: "Cool climates preserve more natural acidity in grapes, leading to fresher-tasting wines.",
+},
+{
+  question: "Thicker grape skins, which can lead to higher tannin and color in red wines, are most often found in grapes grown in what climate?",
+  choice: [
+    "Warmer climate",
+    "Cooler climate",
+    
+  ],
+  answer: "Warmer climate",
+  explanation: "Warm climates cause grapes to develop thicker skins to protect from sun and dehydration.",
+},
+{
+  question: "Which grape variety is considered a classic cool climate grape?",
+  choice: [
+    "Pinot Noir",
+    "Cabernet Sauvignon",
+    "Zinfandel",
+    "Syrah",
+  ],
+  answer: "Pinot Noir",
+  explanation: "Pinot Noir is known for thriving in cool climates and producing elegant, high-acid wines.",
+},
+{
+  question: "Which climate is typically best for producing sparkling wine?",
+  choice: [
+    "Cool climate",
+    "Warm climate",
+    "Arid climate",
+    "Tropical climate",
+  ],
+  answer: "Cool climate",
+  explanation: "Cool climates preserve acidity in grapes, which is ideal for high-quality sparkling wine.",
+},
+{
+  question: "Which type of grape is most commonly used in classic European wines?",
+  choice: [
+    "Vitis Vinifera",
+    "Vitis Riparia",
+    "Hybrid",
+    "Labrusca",
+  ],
+  answer: "Vitis Vinifera",
+  explanation: "Vitis Vinifera is the species responsible for most traditional European wines.",
+},
+{
+  question: "What is the primary function of rootstock in viticulture?",
+  choice: [
+    "Disease resistance",
+    "Flavor enhancement",
+    "Color preservation",
+    "Sugar accumulation",
+  ],
+  answer: "Disease resistance",
+  explanation: "Rootstock, such as Vitis Riparia, is often used for its resistance to pests and diseases like phylloxera.",
+},
+{
+  question: "Which climate is Cabernet Sauvignon most associated with for optimal ripeness?",
+  choice: [
+    "Warm climate",
+    "Cool climate",
+    "Wet climate",
+    "Mountain climate",
+  ],
+  answer: "Warm climate",
+  explanation: "Cabernet Sauvignon ripens best and achieves fuller body and flavor in warmer climates.",
+},
+{
+  question: "Which type of grapevine is most resistant to cold, making it suitable as a rootstock in cooler regions?",
+  choice: [
+    "Vitis Riparia",
+    "Vitis Vinifera",
+    "Concord",
+    "Zinfandel",
+  ],
+  answer: "Vitis Riparia",
+  explanation: "Vitis Riparia is valued for its resistance to cold and is often used as rootstock in cool climates.",
+},
+{
+  question: "A crossing of two grape species results in what kind of vine?",
+  choice: [
+    "Hybrid",
+    "Varietal",
+    "Clone",
+    "Mutation",
+  ],
+  answer: "Hybrid",
+  explanation: "A hybrid grape is a crossing between two different grape species, often for disease resistance or cold hardiness.",
+},
+{
+  question: "Which wine style is most often associated with earth-driven flavors?",
+  choice: [
+    "Red wines",
+    "Rosé wines",
+    "White wines",
+    "Sparkling wines",
+  ],
+  answer: "Red wines",
+  explanation: "Earth-driven flavors such as mushroom, forest floor, and mineral notes are commonly found in red wines.",
+},
+{
+  question: "Which vineyard condition is most associated with improved water drainage for vines?",
+  choice: [
+    "Rocky soils",
+    "Clay soils",
+    "Windy conditions",
+    "Close proximity to water",
+  ],
+  answer: "Rocky soils",
+  explanation: "Rocky soils allow excess water to drain away, preventing waterlogging and encouraging deep root growth.",
+},
+{
+  question: "Which vineyard condition typically causes grape skins to become thicker?",
+  choice: [
+    "Windy conditions",
+    "Rocky soils",
+    "Close proximity to water",
+    "High rainfall",
+  ],
+  answer: "Windy conditions",
+  explanation: "Windy conditions stress the grapevines, resulting in grapes with thicker skins for protection.",
+},
+{
+  question: "Which type of soil is known for its water retention properties?",
+  choice: [
+    "Clay soils",
+    "Rocky soils",
+    "Sandy soils",
+    "Volcanic soils",
+  ],
+  answer: "Clay soils",
+  explanation: "Clay soils retain water, which can be beneficial in drier climates but problematic in wetter ones.",
+},
+{
+  question: "What is a typical climatic effect of higher altitude vineyards?",
+  choice: [
+    "Cooler temperature but more sunlight",
+    "Warmer temperatures",
+    "High humidity",
+    "More rainfall",
+  ],
+  answer: "Cooler temperature but more sunlight",
+  explanation: "Higher altitudes have cooler temperatures, but the thinner atmosphere means grapes get more intense sunlight.",
+},
+{
+  question: "What is a key result of close proximity to water for a vineyard?",
+  choice: [
+    "Temperature moderation",
+    "Increased disease pressure",
+    "Water drainage",
+    "Thicker grape skins",
+  ],
+  answer: "Temperature moderation",
+  explanation: "Large bodies of water moderate the surrounding temperature, reducing extreme heat or cold in vineyards nearby.",
+},
+{
+  question: "What is the major result from Phylloxera?",
+  choice: [
+    "Early grape maturation",
+    "Most vineyards are grafted",
+    "Superior plant DNA",
+    "Prevention of mildew",
+  ],
+  answer: "Most vineyards are grafted",
+  explanation: "Phylloxera is a pest that attacks grapevine roots. To protect vines, most vineyards now use grafted plants with resistant rootstocks.",
+},
+{
+  question: "In the Northern Hemisphere, which month does grape harvest typically occur?",
+  choice: [
+    "September",
+    "May",
+    "February",
+    "March",
+  ],
+  answer: "September",
+  explanation: "Harvest in the Northern Hemisphere usually happens in September, marking the end of the growing season.",
+},
+{
+  question: "During which month does flowering typically happen in Northern Hemisphere vineyards?",
+  choice: [
+    "May",
+    "July",
+    "March",
+    "February",
+  ],
+  answer: "May",
+  explanation: "Flowering occurs in late spring, typically in May in the Northern Hemisphere, as the vines begin to form clusters.",
+},
+{
+  question: "Which month is most associated with pruning in Northern Hemisphere vineyards?",
+  choice: [
+    "February",
+    "July",
+    "September",
+    "May",
+  ],
+  answer: "February",
+  explanation: "Pruning is usually done in February while the vines are dormant, before the start of the new growing season.",
+},
+{
+  question: "Budbreak, when the first green shoots appear, generally occurs in which month in the Northern Hemisphere?",
+  choice: [
+    "March",
+    "May",
+    "February",
+    "September",
+  ],
+  answer: "March",
+  explanation: "Budbreak takes place in March, when warmer weather awakens the vines from dormancy.",
+},
+{
+  question: "In the vineyard calendar, véraison, when grapes begin to ripen and change color, happens in which month in the Northern Hemisphere?",
+  choice: [
+    "July",
+    "May",
+    "February",
+    "March",
+  ],
+  answer: "July",
+  explanation: "Véraison occurs in July, marking the onset of ripening as grapes change color and soften.",
+},
+{
+  question: "Which winemaking technique is used to increase acidity in wine?",
+  choice: [
+    "Acidification",
+    "Bâtonnage",
+    "Malolactic Conversion",
+    "Chaptalization",
+  ],
+  answer: "Acidification",
+  explanation: "Acidification involves adding acid (usually tartaric) to the must or wine to increase its acidity, often in warm climates where natural acidity can be low.",
+},
+{
+  question: "Which technique makes red wine more fruity and low in tannin?",
+  choice: [
+    "Carbonic Maceration",
+    "Saignée",
+    "Bâtonnage",
+    "Punch down",
+  ],
+  answer: "Carbonic Maceration",
+  explanation: "Carbonic maceration ferments whole grapes in a CO₂-rich environment, producing fruity, low-tannin red wines like Beaujolais Nouveau.",
+},
+{
+  question: "Which winemaking method is used to lower tannins in red wines and increase skin-to-juice ratio?",
+  choice: [
+    "Saignée",
+    "Malolactic Conversion",
+    "Punch down",
+    "Late Harvest",
+  ],
+  answer: "Saignée",
+  explanation: "Saignée, or 'bleeding,' removes some juice from the must early in fermentation, concentrating the remaining wine and reducing tannin extraction.",
+},
+{
+  question: "What technique increases sugar content in grape must and is associated with higher potential alcohol?",
+  choice: [
+    "Late Harvest",
+    "Chaptalization",
+    "Bâtonnage",
+    "Acidification",
+  ],
+  answer: "Late Harvest",
+  explanation: "Late Harvest refers to grapes picked late in the season when they are riper and have more sugar, leading to sweeter or more alcoholic wines.",
+},
+{
+  question: "Which technique is responsible for creating a creamy texture in wines, especially whites?",
+  choice: [
+    "Bâtonnage",
+    "Malolactic Conversion",
+    "Chaptalization",
+    "Saignée",
+  ],
+  answer: "Bâtonnage",
+  explanation: "Bâtonnage is the process of stirring lees in barrel-aged wines, giving a creamy, rich mouthfeel.",
+},
+{
+  question: "Which winemaking process is specifically used to increase the potential alcohol in wine?",
+  choice: [
+    "Chaptalization",
+    "Late Harvest",
+    "Carbonic Maceration",
+    "Punch down",
+  ],
+  answer: "Chaptalization",
+  explanation: "Chaptalization is the addition of sugar to grape must to increase the potential alcohol content of the final wine.",
+},
+{
+  question: "Which technique is responsible for creating buttery flavors in white wines and lowering overall acidity?",
+  choice: [
+    "Malolactic Conversion",
+    "Bâtonnage",
+    "Saignée",
+    "Carbonic Maceration",
+  ],
+  answer: "Malolactic Conversion",
+  explanation: "Malolactic conversion transforms malic acid into lactic acid, softening acidity and often adding a buttery note to white wines.",
+},
+{
+  question: "Which winemaking technique keeps the 'cap' moist and extracts color, flavor, and structure during fermentation?",
+  choice: [
+    "Punch down or Pump-over",
+    "Saignée",
+    "Bâtonnage",
+    "Late Harvest",
+  ],
+  answer: "Punch down or Pump-over",
+  explanation: "Punching down or pumping over submerges or circulates the cap of skins, seeds, and stems during red wine fermentation, extracting color, flavor, and structure.",
+},
+{
+  question: "Which combination will impart the most oak flavor to a wine?",
+  choice: [
+    "large, old, high-toast barrel aging for 18 months",
+    "large, old, low-toast barrel for 24 months",
+    "old, small, low-toast barrel for 16 months",
+    "small, new, high-toast barrel aging for 12 months",
+  ],
+  answer: "small, new, high-toast barrel aging for 12 months",
+  explanation: "Small, new, high-toast barrels expose the wine to more fresh oak surface area and intense toasty flavors, resulting in the most pronounced oak influence.",
+},
 
 
   ],
